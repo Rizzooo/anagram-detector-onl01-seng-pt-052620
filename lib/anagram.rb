@@ -1,12 +1,15 @@
 # Your code goes here!
 class Anagram
   
-  attr_accesor :
-  def initialize
-    
+  attr_accessor :words
+  
+  def initialize(word)
+    @word = word
   end
   
   def match_method
+    matched = []
+    
     
   end
   
