@@ -3,12 +3,13 @@ class Anagram
   
   attr_accessor :word
   
-  def initialize(words)
+  def initialize(word)
     @word = word
   end
   
-  def self.match(words)
-    matched = []
+  def self.match(word_array)
+    word_array.each do |indiv|
+      indiv.split(//)
     
     
   end
